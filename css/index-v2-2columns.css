@@ -1,0 +1,102 @@
+/*css for class project by rich*/
+
+body{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+.container{
+    width: 85%;
+    margin: 10px auto;
+    
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 30px;
+
+
+}
+
+/* header element */
+
+header{
+    background-color: lightcoral;
+    min-height: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+header img{
+    width: 25%;
+}
+
+/* body element */
+
+main{
+    background-color: e45e9d;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+#column1 {
+    background-color: ;
+    float: left;
+    min-height: 500px;
+    width: 80%;
+    padding: 15px;
+
+}
+
+#sidebar {
+    font-size: 14px;
+    background-color: ;
+    min-height: 500px;
+/*  margin-left: 80%; */
+    padding: 15px;
+    text-align: right;
+    line-height: 20px;
+}
+
+#sidebar h2{
+    font-size: 22px;
+    line-height: 25px;
+}
+
+main h2{
+    font-size: 25px;
+    color: mistyrose;
+}
+
+
+/* footer element*/
+footer{
+    background-color: lightcoral;
+    min-height: 75px;
+    text-align: center;
+
+}
+
+a{
+  color: #c12267;  
+}
+a:hover {
+    color: #571b7e;
+}
+
+footer p{
+    margin: 0;
+    padding: 45px 50px;
+}
