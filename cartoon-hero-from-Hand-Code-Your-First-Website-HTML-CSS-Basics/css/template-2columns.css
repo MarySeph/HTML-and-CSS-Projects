@@ -1,0 +1,50 @@
+/*css for class project by rich*/
+
+body{
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* header element */
+
+header{
+    background-color: lightcoral;
+    min-height: 200px;
+}
+
+
+/* body element */
+
+main{
+    background-color: e45e9d;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+#column1 {
+    background-color: red;
+    width: 75%;
+    float: right;
+    min-height: 500px;
+}
+
+#sidebar {
+    background-color: yellow;
+    min-height: 500px;
+    margin-right: 75%;
+}
+
+
+/* footer element*/
+footer{
+    background-color: lightcoral;
+    min-height: 100px;
+}

@@ -1,0 +1,76 @@
+/*css for class project by rich*/
+
+body{
+    margin: 0;
+    font-family: Roboto, Montserrat, Lato;
+    font-size: 19px;
+    /* line-height: 30px; */
+}
+
+h1, h2 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+/* header element */
+
+header{
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+}
+
+header img{
+    width: 250px;
+}
+
+/* body element */
+
+main{
+    /* max-width: 900px;
+    margin: 0 auto;
+    padding: 20px; */
+    background-color: e45e9d;
+    overflow: hidden;
+    
+}
+
+#main {
+    background-color: red;
+    width: 750px;
+    /* float: left; */
+    /* min-height: ; */
+}
+
+#sidebar {
+    background-color: yellow;
+    /* min-height: ; */
+}
+
+h2{
+    font-size: 30px;
+    color: mistyrose;
+}
+
+/* footer element*/
+footer{
+    background-color: lightcoral;
+    text-align: center;
+    
+}
+
+a{
+  color: #c12267;  
+}
+a:hover {
+    color: #571b7e;
+}
+
+footer p{
+    margin: 0;
+    padding: 45px 50px;
+}
