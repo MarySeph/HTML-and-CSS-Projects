@@ -1,0 +1,10 @@
+.box {
+
+	border: 1px solid black;
+	min-height: 500px;
+}
+
+#box-1 {
+	background-color: black;
+	color: white;
+}
