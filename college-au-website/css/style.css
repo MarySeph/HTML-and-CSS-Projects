@@ -26,8 +26,8 @@ h2{
     font-size: 20px;
 }
 
-p{
-    font-size: 12px;
+p,li{
+    font-size: 14px;
 }
 
 .column1{
@@ -57,5 +57,6 @@ footer{
     background-color: yellow;
     min-height: 50px;
     text-align: center;
-    padding-top: 25px;
+    margin: 0;
+    padding: 25px 30px;
 }
