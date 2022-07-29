@@ -1,0 +1,61 @@
+.container{
+    width: 90%;
+    margin: 10px auto;
+    font-size: 15px;
+}
+
+header{
+    background-color: red;
+    min-height: 40px;
+}
+
+#header-title{
+    margin: 50px;
+}
+
+main{
+    background-color: blue;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.column1{
+    background-color: grey;
+    width: 75%;
+    float: left;
+    padding: 10px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.avatar-img{
+   width: 70%; 
+}
+
+.sidebar{
+    background-color: orange;
+    text-align: right;
+    padding: 10px;
+    margin-left: 75%;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: yellow;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
