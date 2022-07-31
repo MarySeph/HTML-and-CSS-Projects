@@ -1,0 +1,124 @@
+/* body styling */
+  p {
+    line-height: 25px;
+  }
+  
+  img {
+    width: 25%;
+  }
+
+/* div 1 */
+.parent1 {
+    background-color: yellow;
+  }
+  
+.img1{
+    
+    margin: 0 50px 0px 0;
+    float: left;
+  }
+  
+.img2{
+    
+    margin: 0 0 20px 20px;
+    float: right;
+    
+  }
+  
+.para1 {
+    /* empty */
+  }
+
+/* div 2 */
+  .parent2 {
+    background-color: pink;
+  }
+  
+  .img3 {
+  
+    margin: 0 50px 0px 0;
+    float: left;
+  }
+  
+  .img4 {
+  
+    margin: 0 0 20px 20px;
+    float: right;
+  
+  }
+  
+  .para2 {
+    clear: both;
+  }
+
+/* div 3 */
+  .parent3 {
+    background-color: red;
+  }
+  
+  .img5 {
+  
+    margin: 20px;
+    float:left;
+  }
+  
+  .img6 {
+  
+    margin: 20px;
+    float: right;
+    clear: left
+  
+  }
+  
+  .para3 {
+    /* nothing */
+  }
+
+/* div 4 */
+  .parent4 {
+    background-color: blue;
+  }
+  
+   .img7 {
+  
+    float:left;
+  }
+ 
+  .img8 {
+  
+    margin: 20px;
+    float: right;
+    clear: left;
+  
+  }
+  
+  
+  .para4 {
+    clear: left;
+
+  }
+
+/* div 5 */
+  .parent5 {
+    background-color: grey;
+  }
+
+/* div 6 */
+  .parent6 {
+    background-color: green;
+  }
+  .parent6:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .img11{
+    float: left;
+    transform: translateY(100px);
+  }
+  
+  
+  .img12, img13{
+    float: left;
+  }
