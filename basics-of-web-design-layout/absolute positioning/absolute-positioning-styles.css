@@ -1,0 +1,17 @@
+.box{
+  border: 4px dashed;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.box-4{
+  background-color: red;
+}
+
+.box-3{
+  background-color: pink;
+}
+
+.box-5{
+  background-color: blue;
+}
