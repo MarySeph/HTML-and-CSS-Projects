@@ -4,7 +4,7 @@
     font-size: 15px;
 }
 
-header{
+.header{
     background-color: red;
     min-height: 40px;
 }
@@ -13,13 +13,22 @@ header{
     margin: 50px;
 }
 
+#banner{
+    width: 100%;
+}
+
+nav{
+    background-color: lightpink;
+}
+
 main{
     background-color: blue;
     overflow: hidden;
 }
 
 h1{
-    font-size: 25px;
+    font-size: 20px;
+    text-align: right;
 }
 
 h2{
@@ -28,25 +37,27 @@ h2{
 
 p,li{
     font-size: 14px;
+    line-height: 20px;
 }
 
 .column1{
     background-color: grey;
     width: 75%;
     float: left;
-    padding: 10px;
+    padding: 20px;
     min-height: 200px;
     box-sizing: border-box;
 }
 
 .avatar-img{
-   width: 70%; 
+   width: 50%; 
+   float: left;
 }
 
 .sidebar{
     background-color: orange;
     text-align: right;
-    padding: 10px;
+    padding: 15px;
     margin-left: 75%;
     min-height: 200px;
     box-sizing: border-box;
