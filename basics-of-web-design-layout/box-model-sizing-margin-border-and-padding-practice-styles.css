@@ -1,0 +1,51 @@
+.box{
+  background-color: lightpink;
+  border: 2px dashed hotpink;
+  padding: 20px;
+  margin: 10px auto;
+  width: 90%;
+  
+}
+
+.box{
+  box-sizing: border-box;
+}
+
+.box-1 .box-2 .box-3{
+  margin: 20px;
+  
+}
+
+.box-2{
+  border-color: cadetblue;
+  border-width: 3px;
+  border-top: 2px cadetblue solid;
+  border-bottom: 2px cadetblue solid;
+  padding: 15px;
+  margin: 0 20px;
+  
+}
+
+.box-3{
+  background-color: lightgoldenrodyellow;
+  border-radius: 150px;
+  width: 350px;
+  border: 5px indianred solid;
+  margin: 0;
+  
+}
+
+
+/* inline elements */
+
+span{
+  background-color: red;
+}
+
+em{
+  background-color: blue;
+}
+
+.inline{
+  display: none;
+}
