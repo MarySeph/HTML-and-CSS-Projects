@@ -34,18 +34,3 @@
   margin: 0;
   
 }
-
-
-/* inline elements */
-
-span{
-  background-color: red;
-}
-
-em{
-  background-color: blue;
-}
-
-.inline{
-  display: none;
-}

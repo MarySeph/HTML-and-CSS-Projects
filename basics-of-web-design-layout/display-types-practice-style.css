@@ -1,0 +1,38 @@
+p{
+  background-color: lightpink;
+}
+
+span {
+  background-color: red;
+  margin: 30px;
+}
+
+em {
+  background-color: lightslategray;
+  padding: 3px;
+}
+
+span em{
+  background-color: yellow;
+  font-weight: bold;
+  
+}
+
+div{
+  background-color: black;
+  color: white;
+}
+
+em a{
+  border: black 4px dashed;
+}
+
+h1 span{
+  color: white;
+}
+
+input{
+  border: 5px solid orangered;
+  margin: 20px;
+  padding: 15px;
+}
