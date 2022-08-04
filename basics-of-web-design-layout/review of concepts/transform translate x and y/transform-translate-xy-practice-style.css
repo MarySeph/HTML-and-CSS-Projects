@@ -1,0 +1,12 @@
+img{
+  width: 25%;
+}
+
+
+.img-1 {
+  transform: translate(150px, 300px);
+}
+
+.img-2 {
+  transform: translate(-150px,-50px)
+} 
