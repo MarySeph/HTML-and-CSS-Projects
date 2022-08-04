@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="positioning-practice-style.css">
+  <title>Positioning Practice</title>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>This is a box with static positioning. It's tall enough to fit its contents.</h1>
+</div>
+
+<div class="box">
+  <h1>This is <em>another</em> box with static positioning. It's tall enough to fit its contents.</h1>
+</div>
+
+<div class="box">
+  <h1>This is a third and final box with static positioning. It's tall enough to fit its contents.</h1>
+</div>
+
+<div class="box-relative">
+  <h2>This box has <span class="highlight">relative</span> positioning. It can be moved with top, bottom, right, and left declarations without disturbing the other elements. This is the basis of coding a pop up window.
+  <br>
+  <br>
+  Pro tip: When using these properties, make the value negative. That way, it behaves like coordinate points a cartesian plane. 
+  <br>
+  <br>
+  P.S: This box isn't centered. It's just moved relative to its original position.
+  </h2>
+  <div class="box-absolute">
+    <h3>This box is has a property of absolute. It has the same top, right, bottom, and left values as it's parent unless coded otherwise. If this text is visible despite the tiny size of the container, you need to add `overflow: hidden` declaration.</h3>
+  </div>
+</div>
+
+<div class="box">
+  <h1>Jk, this is the <em>actual</em> final box with static positioning.</h1>
+  <br>
+  <p>It is to prove that the relative box, while it breaks out of the flow, is still acknowledged. Look at the <b>chunk of space between this and the 3rd box!</b>  This isn't helpful when making a popup. We don't want this chunk of space, the remnants of the popup box, to influence the look of our page.
+  <br>
+  <br>
+  This is where absolute positioning <em>truly</em> shines.
+  </p>
+</div>
+
+<div class=" box absolute-popup">
+  <h3>
+    This is a block with the <em>absolute</em> property. It behaves as if it doesn't exist; the other elements don't acknowledge it by leaving space where it once stood.
+  </h3>
+  <h4 class="absolute-child">
+    This absolute child is similar to the one in the relative box.
+  </h4>
+</div>
+
+<div class="box">
+  <h1>This is a box with static positioning. Unlike the previous box, it doesn't acnowledge the pop up box that's coded right before it.</h1>
+</div>
+
+<div class="final-popup">
+  <h3>This is another practice for a popup with an absolute property. The difference between this and the <em>relative</em> popup is that this won't leave a space between elements that come before or after it. The parent box of this pop up the the browser's window. You can check by changing it's top left values to 0.
+    <br>
+    <br>
+    However, this only happens if there's no other non-static (absolute, sticky, relative, and fixed) elements. To make an element have it's parent box the web browser, you need the <em>fixed positioning</em> declaration.
+    <br>
+    <br>
+    Pro tip: Do not set a width. Use top, bottom, left and right to center and size this popup.
+  </h3>
+  <h4 class="final-child">This is the child element of this popup. It also has an absolute property. Instead, it's parent element is this final popup.</h4>
+  <h4 class="final-2nd-child">2nd child element of this popup. It appears behind the first child because it was given a higher z-index value.
+  <br>
+  <br>
+  P.S: This depth <em>only</em> involves the siblings because they are confined to the parent element. If they weren't, the other non-static boxes, if given a higher depth value, could be in front of these children boxes. Capiche?
+  </h4>
+</div>
+
+<div class="box">
+  <h1>This is a box with static positioning. Unlike the previous box, it doesn't acnowledge the pop up box that's coded right before it.</h1>
+</div>
+
+<div class="the-popup">
+  <div class="blanket">
+    <div class="content">
+      This is the actual popup window. It uses three levels of div: the popup, blanket, and content. There's also a button element.
+      <br>
+      <br>
+      One key difference between this pop up and the previous (absolute and relative) ones, apart from the blanket, is that this one scrolls up and down with the user. The damn thing is <em>fixed, or <b>stuck</b></em> to the screen. Super annoying. It's almost like the next positioning, sticky, except this doesn't alternate between relative and fixed.
+      <br>
+      <br>
+      P.S Centering this box can be tricky.
+      <br>
+      <br>
+      P.S.S Styling the close button is the same as the other popups. Maybe with a declaration `cursor: pointer` at the end.
+      <button class="close">X</button>
+    </div>
+  </div>
+</div>
+
+<div class="stick">
+  <h3>Now there are two!</h3>
+</div>
+
+<div class="stick">
+  <h3>A box is stuck at the bottom of the screen!</h3>
+</div>
+
+</body>
+</html>

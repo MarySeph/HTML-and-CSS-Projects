@@ -1,0 +1,170 @@
+.box{
+  background-color: pink;
+  border: dashed 4px lightsalmon;
+  margin: 10px auto;
+}
+
+.box-relative{
+  background-color: skyblue;
+  border: solid 2px black;
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+  top: 300px;
+  right: -150px;
+  width: 700px;
+  height: 400px;
+  line-height: 40px;
+  opacity: .75;
+  /* display: none; */
+  z-index:2; 
+}
+
+.highlight{
+  background-color: blue;
+}
+
+.box-absolute{
+  border: dashed lightgoldenrodyellow 4px;
+  padding: 15px;
+  background-color: orange;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 30px;
+  height: 20px;
+  overflow: hidden;
+}
+
+p em{
+  background-color: indianred;
+}
+
+.absolute-popup{
+  background-color: navajowhite;
+  border: solid 1px black;
+  padding: 15px;
+  position: absolute;
+  margin: 0 auto;
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  /* display: none; */
+  
+}
+
+h3 em{
+  background-color: yellow;
+}
+
+.absolute-child{
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: -30px;
+  right: -30px;
+  border-radius: 50px;
+  width: 50px;
+  border: slategray 4px solid;
+  overflow: hidden;
+  /* display: none; */
+}
+
+.final-popup{
+  border: solid 2px lightslategray;
+  background-color: floralwhite;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  right:10%;
+  /* bottom:10%; */
+  left:10%;
+  line-height: 30px;
+  z-index:2;
+}
+
+.final-child{
+  border-style: dashed;
+  background-color: black;
+  padding: 10px;
+  position: absolute;
+  top: -45px;
+  right: -20px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  z-index:2;
+}
+
+.final-2nd-child {
+  background-color: white;
+  border: 1px gray solid;
+  padding: 10px;
+  position: absolute;
+  top: -60px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.the-popup{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 3;
+}
+
+.blanket{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,.7);
+}
+
+.content{
+  box-sizing: border-box;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  height: 365px;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.close{
+  border: none;
+  background-color: indianred;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  right: -1px;
+  cursor: pointer;
+}
+
+.stick{
+  z-index: 10;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  background-color: skyblue;
+  border: 2px darkblue solid;
+}
+
+.stick:after{
+  content:'Oh no no!';
+}
