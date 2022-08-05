@@ -5,9 +5,21 @@ body, html{
   margin: 0;
 }
 
+/* DEFAULT STYLING */
+
 h1{
   font-weight: 800;
   font-size: 50px;
+}
+
+h2{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 h4{
@@ -15,15 +27,18 @@ h4{
   font-size:20px;
 }
 
-h3{
-  font-weight: bold;
+p {
   font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
 }
 
 .wrapper{
   width: 960px;
   margin:0 auto;
 }
+
+/* BANNER */
 
 .hero-banner{
   background-color: #007FFF;
@@ -99,21 +114,59 @@ button.cta.alt{
   box-shadow: 0 0 0 10px rgba(0,0,0,.15);
 }
 
+/* NAVIGATION */
+
+nav{
+height:100px;
+ background-color: white;
+ box-shadow: 0 5px 8px rgba(0,0,0,.2);
+ position: sticky;
+ top:0;
+}
+
+nav .logo{
+  display: block;
+  width: 300px;
+  height: 40px;
+  position: absolute; top:50%; left: 0;
+  margin-top: -20px;
+  margin-left: 30px;
+  background: url(img/logo.png) no-repeat 0 0;
+  background-size: 100%;
+  overflow: hidden;
+  text-indent: -999px;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+nav ul li{
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #111111;
+  text-decoration: none;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+/* MORE INFO SECTION */
+
+.more-info{
+  text-align:center;  
+}
 
 
-/* <div class="hero-banner">
-    <div class="wrapper">
-      <h4>Rich from <a href="#">Tap Tap Kaboom </a> presents </h4>
-      <h1>The Silliest &amp; <br>
-      Most Awesome Gang<br>
-      In The World!
-      </h1>
-      <h3>It's the Circle Guy, Hat Guy, &amp; Red Guy<br> 
-      They're the best of friends.
-      </h3>
-      <a class="cta alt" href="#more-info">Read More</a>
-    </div>
-    <div class="chara1"></div>
-    <div class="chara2"></div>
-    <div class="chara3"></div>
-  </div> */
+
