@@ -35,7 +35,7 @@ Hand-Code Your First Website:
 
 Portfolio Website (HTML):
 -
-https://maryseph.github.io/HTML-and-CSS-Projects/portofolio-website-from-Introduction-to-HTML-Build-a-Portfolio-Website/index.html
+- https://maryseph.github.io/HTML-and-CSS-Projects/portofolio-website-from-Introduction-to-HTML-Build-a-Portfolio-Website/index.html
 
 Understanding Web Development:
 -
