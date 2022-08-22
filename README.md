@@ -15,6 +15,7 @@ Basics of Web Design Layout:
     - Display Types: https://maryseph.github.io/HTML-and-CSS-Projects/basics-of-web-design-layout/review%20of%20concepts/display%20types/display-types-practice.html
     - Positioning: https://maryseph.github.io/HTML-and-CSS-Projects/basics-of-web-design-layout/review%20of%20concepts/positioning%20(static,%20fixed,%20absolute,%20relative,%20sticky)/positioning-practice.html
     - Rows of Floats: https://maryseph.github.io/HTML-and-CSS-Projects/basics-of-web-design-layout/review%20of%20concepts/rows%20of%20floats/rows-of-floats-practice.html
+    - Transform X and Y: https://maryseph.github.io/HTML-and-CSS-Projects/basics-of-web-design-layout/review%20of%20concepts/transform%20translate%20x%20and%20y/transform-translate-xy-practice.html
    
   - CLASS PROJECT:
     - My Code: https://maryseph.github.io/HTML-and-CSS-Projects/basics-of-web-design-layout/class%20project/web-design-layout.html
