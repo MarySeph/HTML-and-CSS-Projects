@@ -39,7 +39,7 @@ https://maryseph.github.io/HTML-and-CSS-Projects/portofolio-website-from-Introdu
 
 Understanding Web Development:
 -
-Test: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/index.html#
-Practice: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/NewPage.html
+- Test: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/index.html#
+- Practice: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/NewPage.html
 
 - Class Notes (PDF format): https://maryseph.gumroad.com/l/frontend-web-devo
