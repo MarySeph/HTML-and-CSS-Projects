@@ -28,7 +28,16 @@ Cartoon Hero:
 -
 https://maryseph.github.io/HTML-and-CSS-Projects/cartoon-hero-from-Hand-Code-Your-First-Website-HTML-CSS-Basics/index-v2-2columns.html
 
+Hand-Code Your First Website:
+-
+CSS Styles: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/styles-sheet.html
+Test Page: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/test.html
+
+Portfolio Website (HTML):
+-
+https://maryseph.github.io/HTML-and-CSS-Projects/portofolio-website-from-Introduction-to-HTML-Build-a-Portfolio-Website/index.html
 
 
 
-Class Notes (PDF format): https://maryseph.gumroad.com/l/frontend-web-devo
+
+- Class Notes (PDF format): https://maryseph.gumroad.com/l/frontend-web-devo
