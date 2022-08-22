@@ -37,7 +37,9 @@ Portfolio Website (HTML):
 -
 https://maryseph.github.io/HTML-and-CSS-Projects/portofolio-website-from-Introduction-to-HTML-Build-a-Portfolio-Website/index.html
 
-
-
+Understanding Web Development:
+-
+Test: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/index.html#
+Practice: https://maryseph.github.io/HTML-and-CSS-Projects/understanding-web-devo%20-skillshare-class/NewPage.html
 
 - Class Notes (PDF format): https://maryseph.gumroad.com/l/frontend-web-devo
