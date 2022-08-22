@@ -26,7 +26,7 @@ Basics of Web Design Layout:
 
 Cartoon Hero:
 -
-https://maryseph.github.io/HTML-and-CSS-Projects/cartoon-hero-from-Hand-Code-Your-First-Website-HTML-CSS-Basics/index-v2-2columns.html
+- https://maryseph.github.io/HTML-and-CSS-Projects/cartoon-hero-from-Hand-Code-Your-First-Website-HTML-CSS-Basics/index-v2-2columns.html
 
 Hand-Code Your First Website:
 -
@@ -44,4 +44,4 @@ Understanding Web Development:
 
 Class Notes (PDF format): 
 - 
-https://maryseph.gumroad.com/l/frontend-web-devo
+- https://maryseph.gumroad.com/l/frontend-web-devo
