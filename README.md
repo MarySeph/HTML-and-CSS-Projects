@@ -30,8 +30,8 @@ https://maryseph.github.io/HTML-and-CSS-Projects/cartoon-hero-from-Hand-Code-You
 
 Hand-Code Your First Website:
 -
-CSS Styles: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/styles-sheet.html
-Test Page: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/test.html
+- CSS Styles: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/styles-sheet.html
+- Test Page: https://maryseph.github.io/HTML-and-CSS-Projects/hand-code-your-first-website_HTML+CSS-basics/test.html
 
 Portfolio Website (HTML):
 -
